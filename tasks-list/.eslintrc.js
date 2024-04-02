@@ -22,8 +22,9 @@ module.exports = {
   rules: {
     'prettier/prettier': 2,
     'react/jsx-filename-extension': 0,
-    'react/jsx-key': 'off',
     'react/state-in-constructor': 0,
+    'react/forbid-prop-types': 0,
+    'react/jsx-key': 'off',
     'import/prefer-default-export': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
